@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.home, .about, .resources, .blog, .contact {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.home {
+  background-color: #f9f9f9;
+}
+
+.about {
+  background-color: #ffebcc;
+}
+
+.resources {
+  background-color: #e6f7ff;
+}
+
+.blog {
+  background-color: #f2e6ff;
+}
+
+.contact {
+  background-color: #ffe6e6;
+}
+
+h1 {
+  color: #2ecc71; /* Green */
+}
+
+p {
+  color: #3498db; /* Blue */
+}

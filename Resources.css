@@ -1,0 +1,155 @@
+/* Existing CSS Styles... */
+
+/* Improved Button Styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.button-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: #0056b3;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4); /* Example focus state */
+}
+
+.button-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+  background-color: #5a6268;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(108, 117, 125, 0.4); /* Example focus state */
+}
+
+.button-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.button-success:hover,
+.button-success:focus {
+  background-color: #218838;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.4); /* Example focus state */
+}
+
+.button-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.button-danger:hover,
+.button-danger:focus {
+  background-color: #c82333;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.4); /* Example focus state */
+}
+
+/* Usage Example */
+.about-button,
+.blog-actions button,
+.contact-form button {
+  /* Apply button class and variants as needed */
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.about-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.about-button:hover,
+.about-button:focus {
+  background-color: #0056b3;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4); /* Example focus state */
+}
+
+.blog-actions button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.blog-actions button:hover,
+.blog-actions button:focus {
+  background-color: #0056b3;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4); /* Example focus state */
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.contact-form button:hover,
+.contact-form button:focus {
+  background-color: #0056b3;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4); /* Example focus state */
+}
+
+.resources-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resource-section {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.resource-section h2 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.resource-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.resource-section li {
+  margin-bottom: 10px;
+}
+
+.resource-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.resource-section a:hover {
+  text-decoration: underline;
+}
